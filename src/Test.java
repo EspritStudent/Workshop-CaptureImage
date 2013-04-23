@@ -37,7 +37,7 @@ public class Test {
 		System.out.println(info.getName());
 		System.out.println(info.getPath());
 		final DSCapture capture = new DSCapture(0, info, true,
-				DSFilterInfo.doNotRender(), null);
+				DSFilterInfo.doNotRender(),   null);
 
 		// frame.add(capture);
 
